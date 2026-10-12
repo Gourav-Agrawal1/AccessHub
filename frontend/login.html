@@ -169,8 +169,8 @@ async function handleAuth() {
     }
 
     const url = isLogin
-        ? "http://localhost:8000/auth/login"
-        : "http://localhost:8000/auth/register";
+        ? "http://localhost:8001/auth/login"
+        : "http://localhost:8001/auth/register";
 
     const payload = isLogin
         ? { email, password }
